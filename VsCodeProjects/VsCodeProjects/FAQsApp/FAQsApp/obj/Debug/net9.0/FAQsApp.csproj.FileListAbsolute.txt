@@ -1,0 +1,8 @@
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.csproj.AssemblyReference.cache
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.AssemblyInfoInputs.cache
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.AssemblyInfo.cs
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.csproj.CoreCompileInputs.cache
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.MvcApplicationPartsAssemblyInfo.cs
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.MvcApplicationPartsAssemblyInfo.cache
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.sourcelink.json
