@@ -1276,3 +1276,4 @@
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/ContactManagerApp/obj/Debug/net9.0/ContactManagerApp.pdb
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/ContactManagerApp/obj/Debug/net9.0/ContactManagerApp.genruntimeconfig.cache
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/ContactManagerApp/obj/Debug/net9.0/ref/ContactManagerApp.dll
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/ContactManagerApp/obj/Debug/net9.0/ContactManagerApp.sourcelink.json
