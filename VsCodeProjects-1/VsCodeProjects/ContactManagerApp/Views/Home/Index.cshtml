@@ -1,0 +1,58 @@
+@model List<ContactManagerApp.Models.Contact>
+
+@{
+    ViewData["Title"] = "Contact Manager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <script src="~/lib/jquery/dist/jquery.min.js" defer></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha-long-hash_code" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <header class="header-bg text-center p-3">
+        <h1 class="header-text">@ViewBag.Title</h1>
+    </header>
+    <div class="container mt-4">
+        <form class="d-flex justify-content-start mb-3">
+            <a asp-action="Add" class="text-primary">Add Contact</a>
+        </form>
+
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Category</th>
+                </tr>
+            </thead>
+            <tbody>
+            @foreach (var contact in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(contact.Firstname, "Details", new { id = contact.ContactId, slug = contact.Slug })</td>
+                    <td>@Html.ActionLink(contact.Lastname, "Details", new { id = contact.ContactId, slug = contact.Slug })</td>
+                    <td>@Html.ActionLink(contact.Phone, "Details", new { id = contact.ContactId, slug = contact.Slug })</td>
+                    <td>@Html.ActionLink(contact.Email, "Details", new { id = contact.ContactId, slug = contact.Slug })</td>
+                    <td>@(contact.Category?.Name ?? "No Category")</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+
+        @section Scripts {
+            <partial name="_ValidationScriptsPartial" />
+        }
+    </div>
+</body>
+</html>

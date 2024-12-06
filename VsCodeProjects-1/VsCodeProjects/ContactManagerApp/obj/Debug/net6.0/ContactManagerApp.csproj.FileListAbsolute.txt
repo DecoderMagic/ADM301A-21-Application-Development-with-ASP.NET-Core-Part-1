@@ -1,0 +1,8 @@
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.csproj.AssemblyReference.cache
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.GeneratedMSBuildEditorConfig.editorconfig
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.AssemblyInfoInputs.cache
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.AssemblyInfo.cs
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.csproj.CoreCompileInputs.cache
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.MvcApplicationPartsAssemblyInfo.cache
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.RazorAssemblyInfo.cache
+/home/researcher6898/VsCodeProjects/ContactManagerApp/obj/Debug/net6.0/ContactManagerApp.RazorAssemblyInfo.cs

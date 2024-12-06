@@ -1,0 +1,40 @@
+@model ContactManagerApp.Models.Contact
+
+@{
+    ViewData["Title"] = "Contact Manager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <script src="~/lib/jquery/dist/jquery.min.js" defer></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <header class="header-bg text-center p-3">
+        <h1 class="header-text">@ViewBag.Title</h1>
+    </header>
+    <div class="container mt-4">
+        <h1><strong>Delete Contact</strong></h1>
+        <p>Do you really want to delete <strong>"@Model.Firstname @Model.Lastname"?</strong></p>
+
+        <form asp-action="Delete" method="post">
+            <input type="hidden" asp-for="ContactId" />
+            <button type="submit" class="btn btn-dark-grey">Yes</button>
+            <a asp-controller="Home" asp-action="Index" class="btn btn-dark-grey">No</a>
+        </form>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+    }
+</body>
+</html>
+

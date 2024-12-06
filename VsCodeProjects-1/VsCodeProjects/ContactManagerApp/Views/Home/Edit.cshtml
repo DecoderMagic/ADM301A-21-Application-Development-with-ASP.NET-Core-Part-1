@@ -1,0 +1,99 @@
+@model ContactManagerApp.Models.Contact
+
+@{
+    ViewData["Title"] = "Contact Manager";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    <script src="~/lib/jquery/dist/jquery.min.js" defer></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/css/site.css">
+</head>
+<body>
+    <header class="header-bg text-center p-3">
+        <h1 class="header-text">@ViewBag.Title</h1>
+    </header>
+    <div class="container mt-4">
+        <h1><strong>@ViewBag.Action Contact</strong></h1>
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <form asp-action="Edit" method="post">
+            <div class="mb-3">
+                <label asp-for="Firstname" class="form-label">First Name</label>
+                <input asp-for="Firstname" class="form-control" />
+                <span asp-validation-for="Firstname" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Lastname" class="form-label">Last Name</label>
+                <input asp-for="Lastname" class="form-control" />
+                <span asp-validation-for="Lastname" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Phone" class="form-label">Phone</label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Email" class="form-label">Email</label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="CategoryId" class="form-label">Category</label>
+                <select asp-for="CategoryId" class="form-select" asp-items="@(new SelectList(ViewBag.Categories, "Value", "Text"))">
+                    <option value="">select a category</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <input type="submit" value="Save" class="btn btn-dark-grey" />
+                <a asp-controller="Home" asp-action="Index" class="btn btn-dark-grey">Cancel</a>
+            </div>
+            <input type="hidden" asp-for="ContactId" />
+        </form>
+    </div>
+
+    @section Scripts {
+        <partial name="_ValidationScriptsPartial" />
+        <script>
+            let isFormChanged = false;
+            $('form input, form select').change(function() {
+                isFormChanged = true;
+            });
+            window.onbeforeunload = function(e) {
+                if (isFormChanged) {
+                    e.preventDefault();
+                    $('#unsavedChangesModal').modal('show');
+                    return '';
+                }
+            };
+            function proceedWithoutSaving() {
+                window.onbeforeunload = null;
+                window.location.href = '{{ redirectUrl }}';
+            }
+        </script>
+        <div class="modal fade" id="unsavedChangesModal" tabindex="-1" aria-labelledby="unsavedChangesModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="unsavedChangesModalLabel">Unsaved Changes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">You want to proceed without saving?</div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-danger" onclick="proceedWithoutSaving()">Leave</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    }
+</body>
+</html>
