@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@ViewData["Title"] - FAQsApp</title>
+    <title>FAQsApp</title>
     <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+    <header class="header-bg text-center p-1">
+        <h1 class="header-text">Frequently Asked Questions</h1>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-fluid justify-content-center">
+           <div class="navbar-nav">
+            <a class="nav-item nav-link">ALL FAQs</a>
+            <a class="nav-item nav-link">Fedora</a>
+            <a class="nav-item nav-link">Ubuntu</a>
+            <a class="nav-item nav-link">Arch Linux</a> 
+           </div>
+        </div>
+    </nav>
     <div class="container">
         @RenderBody()
     </div>
