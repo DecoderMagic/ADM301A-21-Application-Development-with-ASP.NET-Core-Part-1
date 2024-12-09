@@ -1,4 +1,28 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<FAQsApp.Models.FAQ>
+
+@{
+    ViewData["Title"] = "FAQs";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<div class="row mt-4">
+    <div class="col-md-3">
+        <div class="list-group">
+            <a href="/Home/Category/general" class="list-group-item list-group-item-action">General</a>
+            <a href="/Home/Category/history" class="list-group-item list-group-item-action">History</a>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div class="faq-list">
+            @foreach (var faq in Model)
+            {
+                <div class="faq-item mb-3">
+                    <h5>@faq.Question</h5>
+                    <p>@faq.Answer</p>
+                    <p><strong>Topic:</strong> @faq.Topic?.Name</p>
+                    <p><strong>Category:</strong> @faq.Category?.Name</p>
+                </div>
+            }
+        </div>
+    </div>
+</div>
