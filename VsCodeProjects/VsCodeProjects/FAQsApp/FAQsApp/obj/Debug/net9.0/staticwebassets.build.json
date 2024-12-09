@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "48MLO8lvo/n6NEeVizYIkR/uYkQwwo9Sks+anjggKnU=",
+  "Hash": "FK+VF88Ipw6sfze9Aa8ARp/8sVDCvNimXA988hz2TDE=",
   "Source": "FAQsApp",
   "BasePath": "_content/FAQsApp",
   "Mode": "Default",
@@ -4007,12 +4007,12 @@
       "OriginalItemSpec": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/wwwroot/lib/@popperjs/core/dist/umd/popper.js.map"
     },
     {
-      "Identity": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-4822d9gdlq.gz",
+      "Identity": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-rgny1z489y.gz",
       "SourceId": "FAQsApp",
       "SourceType": "Discovered",
       "ContentRoot": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/FAQsApp",
-      "RelativePath": "css/site#[.{fingerprint=4822d9gdlq}]?.css.gz",
+      "RelativePath": "css/site#[.{fingerprint=rgny1z489y}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -4021,8 +4021,8 @@
       "RelatedAsset": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/wwwroot/css/site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "cttu7p0anj",
-      "Integrity": "cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U=",
+      "Fingerprint": "27wjvvffmw",
+      "Integrity": "vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/wwwroot/css/site.css"
@@ -6184,8 +6184,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "4822d9gdlq",
-      "Integrity": "PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4=",
+      "Fingerprint": "rgny1z489y",
+      "Integrity": "S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/css/site.css"
@@ -17029,13 +17029,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.4822d9gdlq.css",
-      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-4822d9gdlq.gz",
+      "Route": "css/site.css",
+      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-rgny1z489y.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.002666666667"
+          "Quality": "0.002358490566"
         }
       ],
       "ResponseHeaders": [
@@ -17045,19 +17045,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "374"
+          "Value": "423"
         },
         {
           "Name": "ETag",
-          "Value": "\"cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U=\""
+          "Value": "\"vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 02:07:49 GMT"
+          "Value": "Mon, 09 Dec 2024 11:52:59 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -17073,26 +17073,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4=\""
+          "Value": "W/\"S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "4822d9gdlq"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4="
+          "Value": "sha256-S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM="
         }
       ]
     },
     {
-      "Route": "css/site.4822d9gdlq.css",
+      "Route": "css/site.css",
       "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/wwwroot/css/site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -17102,7 +17094,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "750"
+          "Value": "870"
         },
         {
           "Name": "Content-Type",
@@ -17110,11 +17102,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4=\""
+          "Value": "\"S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 02:07:49 GMT"
+          "Value": "Mon, 09 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-rgny1z489y.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "423"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rgny1z489y.css",
+      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-rgny1z489y.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.002358490566"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "423"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 11:52:59 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rgny1z489y"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rgny1z489y.css",
+      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/wwwroot/css/site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "870"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 09 Dec 2024 11:52:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17124,7 +17261,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4822d9gdlq"
+          "Value": "rgny1z489y"
         },
         {
           "Name": "label",
@@ -17132,13 +17269,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4="
+          "Value": "sha256-S/hVeL40Qb5q1RA5A7bngJEY1OXGXZEaVR3lgkgyYzM="
         }
       ]
     },
     {
-      "Route": "css/site.4822d9gdlq.css.gz",
-      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-4822d9gdlq.gz",
+      "Route": "css/site.rgny1z489y.css.gz",
+      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-rgny1z489y.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -17147,7 +17284,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "374"
+          "Value": "423"
         },
         {
           "Name": "Content-Type",
@@ -17155,11 +17292,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U=\""
+          "Value": "\"vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 02:07:49 GMT"
+          "Value": "Mon, 09 Dec 2024 11:52:59 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -17177,7 +17314,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "4822d9gdlq"
+          "Value": "rgny1z489y"
         },
         {
           "Name": "label",
@@ -17185,144 +17322,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-4822d9gdlq.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.002666666667"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "374"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 02:07:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/wwwroot/css/site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "750"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 02:07:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-PFcauvVsqQfn2LRbVmkePD9RBZ4Mv7mnATrBVf/Zgo4="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-4822d9gdlq.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "374"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 08 Dec 2024 02:07:49 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-cN2kdwEyhcAiFTRSSS7tAtdTcRUYfgrtKmCi8rlfG/U="
+          "Value": "sha256-vjRwRQ7qWuZAC7GwwQ8XfTjYPD7LSpW0Qz1gWh2cfU0="
         }
       ]
     },

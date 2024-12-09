@@ -8,6 +8,12 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<FAQsAppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("FAQsContext")));
 
+builder.Services.AddRouting(options =>
+{
+    options.LowercaseUrls = true;
+    options.AppendTrailingSlash = true;
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

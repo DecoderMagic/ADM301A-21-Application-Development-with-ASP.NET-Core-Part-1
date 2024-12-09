@@ -13,14 +13,14 @@
         </div>
     </div>
     <div class="col-md-9">
-        <div class="faq-list">
+        <div class="list-group faq-list">
             @foreach (var faq in Model)
             {
-                <div class="faq-item mb-3">
-                    <h5>@faq.Question</h5>
-                    <p>@faq.Answer</p>
-                    <p><strong>Topic:</strong> @faq.Topic?.Name</p>
-                    <p><strong>Category:</strong> @faq.Category?.Name</p>
+                <div class="list-group-item mb-3">
+                    <h5 class="mb-1"><strong>@faq.Question</strong></h5>
+                    <h6 class="mb-1">@faq.Answer</h6>
+                    <h6 class="mb-1">Topic: @faq.Topic?.Name</h6>
+                    <h6 class="mb-1">Category: @faq.Category?.Name</h6>
                 </div>
             }
         </div>

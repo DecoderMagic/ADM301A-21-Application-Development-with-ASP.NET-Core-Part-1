@@ -140,7 +140,6 @@
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.RazorAssemblyInfo.cs
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.sourcelink.json
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/scopedcss/bundle/FAQsApp.styles.css
-/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-4822d9gdlq.gz
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/mzlgly4pow-61n19gt1b8.gz
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/mw9pu6bz1b-fr7q2aak1r.gz
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/4zzs4fwz2x-i7n16zh5t1.gz
@@ -448,3 +447,4 @@
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.pdb
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/FAQsApp.genruntimeconfig.cache
 /home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/ref/FAQsApp.dll
+/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/obj/Debug/net9.0/compressed/n8iqvf7vwi-rgny1z489y.gz
