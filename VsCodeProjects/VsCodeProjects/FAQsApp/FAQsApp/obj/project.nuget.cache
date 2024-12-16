@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JpYGbcb9kRI=",
+  "dgSpecHash": "jVwUJTOZ+4U=",
   "success": true,
-  "projectFilePath": "/home/researcher6898/github/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/FAQsApp.csproj",
+  "projectFilePath": "/home/researcher6898/ADM301A-21-Application-Development-with-ASP.NET-Core-Part-1/VsCodeProjects/VsCodeProjects/FAQsApp/FAQsApp/FAQsApp.csproj",
   "expectedPackageFiles": [
     "/home/researcher6898/.nuget/packages/azure.core/1.38.0/azure.core.1.38.0.nupkg.sha512",
     "/home/researcher6898/.nuget/packages/azure.identity/1.11.4/azure.identity.1.11.4.nupkg.sha512",
