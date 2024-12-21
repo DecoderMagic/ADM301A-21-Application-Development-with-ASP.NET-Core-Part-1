@@ -1,20 +1,33 @@
-using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 
-
-namespace MyWebsite.Controllers;
-
-public class HomeController : Controller
+namespace MyWebsite.Controllers
 {
-    private readonly ILogger<HomeController> _logger;
-
-    public HomeController(ILogger<HomeController> logger)
+    [Route("[controller]")]
+    public class HomeController : Controller
     {
-        _logger = logger;
-    }
+        [Route("/")]
+        public IActionResult Index()
+        {
+            return View();
+        }
 
-    public IActionResult Index()
-    {
-        return View();
+        [Route("[action]")]
+        public IActionResult About()
+        {
+            return View();
+        }
+
+        [Route("[action]")]
+        public IActionResult Contact()
+        {
+            var contactData = new List<(string Type, string Value)>
+            {
+                ("Phone", "555-123-4567"),
+                ("Email", "me@mywebsite.com"),
+                ("Facebook", "facebook.com/mywebsite")
+            };
+            ViewData["ContactData"] = contactData;
+            return View();
+        }
     }
 }

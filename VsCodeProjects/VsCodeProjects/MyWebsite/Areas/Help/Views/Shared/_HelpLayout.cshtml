@@ -1,0 +1,22 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<header>
+    <h1>Help Page</h1>
+</header>
+<nav>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link @(ViewContext.RouteData.Values["id"] as string == "Page1" ? "active" : "")" 
+               asp-area="Help" asp-controller="Tutorial" asp-action="Index" asp-route-id="Page1">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link @(ViewContext.RouteData.Values["id"] as string == "Page2" ? "active" : "")" 
+               asp-area="Help" asp-controller="Tutorial" asp-action="Index" asp-route-id="Page2">Tutorial</a>
+        </li>
+    </ul>
+</nav>
+<div class="mt-3">
+    @RenderBody()
+</div>
